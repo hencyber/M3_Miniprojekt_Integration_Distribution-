@@ -1,0 +1,16 @@
+[project]
+name = "m3-miniprojekt"
+version = "0.1.0"
+description = "API for CIFAR-10 klassificering med ONNX och FastAPI"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch<2.3.0",
+    "torchvision",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.34.0",
+    "onnx>=1.17.0",
+    "onnxruntime>=1.20.0",
+    "numpy<2.0",
+    "python-multipart>=0.0.18",
+]
